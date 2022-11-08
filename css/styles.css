@@ -98,7 +98,6 @@ a.list:visited {
 }
 .hero-title {
   padding-top: 200px;
-  padding-bottom: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -123,6 +122,7 @@ a.list:visited {
 }
 .list-features{
   padding-top: 94px;
+  padding-bottom: 94px;
   margin: 0 auto;
 
 }
@@ -148,6 +148,7 @@ a.list:visited {
 }
 .doing-title {
   padding-top: 94px;
+  padding-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -158,7 +159,11 @@ a.list:visited {
   background-color: #f5f4fa;
 }
 .list-doing {
+  padding-bottom: 94px;
 
+}
+.list-team{
+  padding-bottom: 94px;
 }
 .container-team{
   margin: 0 auto;
@@ -186,6 +191,11 @@ a.list:visited {
   letter-spacing: 0.03em;
   color: var(--text-item);
 }
+
+.container-footer{
+
+
+}
 .footer {
   color: var(--first-title-color);
   background-color: var(--background-origin);
@@ -199,6 +209,8 @@ a.list:visited {
   color: var(--first-btn-color);
 }
 .footer-logo {
+  padding-top: 60px;
+  padding-bottom: 161px;
   font-family: "Raleway";
   font-style: normal;
   font-size: 26px;
@@ -211,7 +223,8 @@ a.list:visited {
   color: #ffffff;
 }
 .footer-address {
-  font-size: 14px;
+  padding-top: 20px;
+    font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -219,6 +232,8 @@ a.list:visited {
   color: var(--first-title-color);
 }
 .footer-link{
+  padding-top: 9px;
+  padding-bottom: 60px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
