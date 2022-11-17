@@ -26,11 +26,15 @@
         <a href="#" class="logo">Web<span class="accent">Studio</span></a>
         <nav class="feader-conteiner list-feader">
           <ul class="list list-feader">
-            <li><a class="feader-nav-link" href="./index.html">Студія</a></li>
-            <li>
+            <li class="feader-nav">
+              <a class="feader-nav-link" href="./index.html">Студія</a>
+            </li>
+            <li class="feader-nav">
               <a class="feader-nav-link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li><a class="feader-nav-link nav-end" href="#">Контакти</a></li>
+            <li class="feader-nav">
+              <a class="feader-nav-link nav-end" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
         <a class="feader-contact" href="mailto:info@devstudio.com"
@@ -52,7 +56,7 @@
         </div>
       </section>
       <section class="features">
-        <div class="container">
+        <div class="container features-container">
           <ul class="list list-features">
             <li class="features-items">
               <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -85,7 +89,7 @@
         </div>
       </section>
       <section class="doing">
-        <div class="container">
+        <div class="container doing-container">
           <h2 class="doing-title">Чим ми займаємося</h2>
           <ul class="list list-doing">
             <li class="doing-items">
@@ -126,8 +130,10 @@
                 height="260"
                 alt="фото працівника студії Ігоря Дем'яненка"
               />
-              <h3 class="team-second-title">Ігор Дем'яненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="info-items">
+                <h3 class="team-second-title">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-items">
               <img
@@ -136,8 +142,10 @@
                 height="260"
                 alt="фото працівника студії Ольги Рєпіної"
               />
-              <h3 class="team-second-title">Ольга Рєпіна</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="info-items">
+                <h3 class="team-second-title">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-items">
               <img
@@ -146,8 +154,10 @@
                 height="260"
                 alt="фото працівника студії Миколи Тарасова"
               />
-              <h3 class="team-second-title">Микола Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="info-items">
+                <h3 class="team-second-title">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-items">
               <img
@@ -156,8 +166,10 @@
                 height="260"
                 alt="фото працівника студії Михайло Єрмаков"
               />
-              <h3 class="team-second-title">Михайло Єрмаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div>
+                <h3 class="team-second-title">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -169,17 +181,17 @@
           >Web<span class="accent-footer">Studio</span></a
         >
         <ul class="list list-footer">
-          <li>
+          <li class="list-info">
             <address class="footer-address">
               м. Київ, пр-т Лесі Українки, 26
             </address>
           </li>
-          <li>
+          <li class="list-info">
             <a class="footer-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="list-info">
             <a class="footer-link end" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >

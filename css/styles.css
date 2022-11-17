@@ -50,14 +50,16 @@ img {
   display: flex;
 }
 .list-feader {
-  margin-right: 344px;
+  margin-right: auto;
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
 }
+.feader-nav {
+  margin-right: 50px;
+}
 
 .feader-nav-link {
-  margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -121,12 +123,12 @@ a.list:visited {
 }
 .fero-container {
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero {
   background-color: var(--background-origin);
 }
 .hero-title {
-  padding-top: 200px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -142,6 +144,7 @@ a.list:visited {
   padding-left: 32px;
   padding-right: 32px;
   margin-top: 30px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   border-radius: 4px;
@@ -157,10 +160,12 @@ a.list:visited {
 }
 .section {
 }
-.list-features {
-  margin-right: 30px;
+.features-container {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.list-features {
+  margin-right: 30px;
   margin: 0 auto;
   display: flex;
 }
@@ -169,13 +174,14 @@ a.list:visited {
   color: var(--color-blac);
 }
 .features-text {
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: var(--text-item);
 }
 .features-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -183,12 +189,19 @@ a.list:visited {
   color: var(--second-title-color);
 }
 .features-items {
-  margin-right: 30px;
+  margin-right: auto;
+  width: 270px;
+  height: 74px;
+  left: 515px;
+  top: 774px;
 }
 .doing {
 }
+.doing-container {
+  padding-bottom: 94px;
+}
 .doing-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -199,12 +212,10 @@ a.list:visited {
   background-color: #f5f4fa;
 }
 .list-doing {
-  padding-bottom: 94px;
   margin: 0;
   display: flex;
 }
 .list-team {
-  padding-bottom: 94px;
   margin: 0;
   display: flex;
 }
@@ -212,10 +223,11 @@ a.list:visited {
   margin-right: 30px;
 }
 .container-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -228,8 +240,12 @@ a.list:visited {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-second-title {
+.info-items {
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-second-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -238,8 +254,7 @@ a.list:visited {
   color: var(--color-blac);
 }
 .team-text {
-  padding-bottom: 30px;
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -257,6 +272,10 @@ a.list:visited {
 }
 .list-footer {
   padding-left: 0;
+  margin-top: 20px;
+}
+.list-info {
+  margin-bottom: 12px;
 }
 .footer-link {
   text-decoration: none;
@@ -279,8 +298,6 @@ a.list:visited {
   color: #ffffff;
 }
 .footer-address {
-  padding-top: 20px;
-  padding-bottom: 9px;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -289,15 +306,12 @@ a.list:visited {
   color: var(--first-title-color);
 }
 .footer-link {
-  padding-top: 9px;
-  padding-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .end {
-  padding-bottom: 60px;
 }
 /*portfolio*/
 .container-portfolio {
@@ -306,11 +320,13 @@ a.list:visited {
 }
 .list-portfolio {
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
 }
-.portfolio-btn {
+.portfolio-nv {
   margin-right: 8px;
+}
+.portfolio-btn {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
@@ -344,21 +360,23 @@ a.list:visited {
   color: var(--second-title-color);
 }
 .list-items {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
+
+}
+.portfolio-info {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
   padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 .portfolio-text {
-  padding-left: 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-item);
 }
 .portfolio-title {
-  padding-top: 20px;
-  padding-left: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
