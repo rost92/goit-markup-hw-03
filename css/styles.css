@@ -122,10 +122,11 @@ a.list:visited {
   color: var(--first-btn-color);
 }
 .fero-container {
-  padding-bottom: 200px;
-  padding-top: 200px;
+  
 }
 .hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
   background-color: var(--background-origin);
 }
 .hero-title {
@@ -161,16 +162,16 @@ a.list:visited {
 .section {
 }
 .features-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+
 }
 .list-features {
-  margin-right: 30px;
-  margin: 0 auto;
-  display: flex;
+   display: flex;
+   gap: 30px;
 }
 
 .features {
+  padding-top: 94px;
+  padding-bottom: 94px;
   color: var(--color-blac);
 }
 .features-text {
@@ -189,16 +190,14 @@ a.list:visited {
   color: var(--second-title-color);
 }
 .features-items {
-  margin-right: auto;
-  width: 270px;
-  height: 74px;
-  left: 515px;
-  top: 774px;
+   width: 270px;
+  
 }
 .doing {
+  padding-bottom: 94px;
 }
 .doing-container {
-  padding-bottom: 94px;
+  
 }
 .doing-title {
   margin-bottom: 50px;
@@ -209,6 +208,8 @@ a.list:visited {
   color: var(--second-title-color);
 }
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 .list-doing {
@@ -223,8 +224,7 @@ a.list:visited {
   margin-right: 30px;
 }
 .container-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
 }
 .team-title {
   margin-bottom: 50px;
@@ -263,10 +263,11 @@ a.list:visited {
 }
 
 .container-footer {
-  padding-bottom: 60px;
-  padding-top: 60px;
+ 
 }
 .footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
   color: var(--first-title-color);
   background-color: var(--background-origin);
 }
@@ -314,9 +315,13 @@ a.list:visited {
 .end {
 }
 /*portfolio*/
-.container-portfolio {
+.portfolio{
   padding-bottom: 94px;
   padding-top: 94px;
+
+}
+.container-portfolio {
+  
 }
 .list-portfolio {
   justify-content: center;
